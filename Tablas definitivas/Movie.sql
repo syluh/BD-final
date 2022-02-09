@@ -1,4 +1,5 @@
 -- MOVIE Definitivo
+-- Primera forma normal 
 DROP TABLE IF EXISTS movie;
 CREATE TABLE movie
 SELECT  id AS id_movie, original_title, title, runtime, overview
