@@ -1,4 +1,5 @@
 -- Directors DEFINITIVO
+-- Primera forma normal
 DROP TABLE IF EXISTS Director ;
 CREATE TABLE Director
 SELECT DISTINCT md5(director) AS directorID, director 
