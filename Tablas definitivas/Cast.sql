@@ -6,7 +6,7 @@ SELECT id_movie, md5(`name`) AS id_cast
 FROM tmp_cast
 GROUP BY md5(`name`);
 
--- Primera forma normal
+-- Segunda forma normal
 DROP TABLE IF EXISTS Cast;
 CREATE TABLE Cast
 SELECT DISTINCT md5(`name`) AS id_cast , `name` 
