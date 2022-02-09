@@ -1,4 +1,5 @@
 -- Workres DEFINITVO
+-- Tercera forma normal de la entidad crew
 DROP TABLE IF EXISTS workers;
 CREATE TABLE workers
 SELECT DISTINCT md5(`name`)AS idWorker,`name`,gender
