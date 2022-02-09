@@ -1,5 +1,5 @@
 -- Jobs DEFINITVO
-
+-- Tercera forma normal a la entidad crew
 DROP TABLE IF EXISTS jobs;
 CREATE TABLE jobs
 SELECT DISTINCT md5(job) AS idJob, job, md5(department) AS id_department 
